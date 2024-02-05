@@ -1,6 +1,9 @@
-body{font-family: 'Montserrat', sans-serif;background-color: #E5E5E5;}
+body{
+    font-family: 'Montserrat', sans-serif;background-color: #E5E5E5;
+}
 /* main style */
-.main{display: flex;
+.main{
+display: flex;
 flex-direction: row-reverse;
 width: 1200px;
 margin: 0 auto;}
@@ -142,3 +145,32 @@ margin-bottom: 10px;}
         margin-left: 15px;}
    .tech-skills-item, .soft-skills-item {color: #FB6D3A;}
    .tech-skills-text, .soft-skills-text {color: #FFFFFF;}
+
+   /* *Large: 992px-1199px */
+@media(max-width: 1199px){
+    .container{
+        max-width: 960px;
+    }
+} 
+
+/* *Medium: 768px-991px */
+@media(max-width: 991px){
+    .container{
+        max-width: 720px;
+    }
+} 
+
+/* *Small: 576px-767px */
+@media(max-width: 767px){
+    .container{
+        max-width: 540px;
+    }
+} 
+
+/* *Extra small: 0px (320px)-575px */
+@media(max-width: 575px){
+    .container{
+        max-width: 375px;
+    }
+
+} 

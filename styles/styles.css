@@ -82,6 +82,7 @@ body{
 .infa-about-project{
     width: 100%;
     padding-left: 8px;
+    font-weight: 400;
 }
 /* jobs styles */
 .jobs{

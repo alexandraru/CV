@@ -261,6 +261,7 @@ margin-bottom: 50px;
 @media(max-width: 575px){
     .container{
         max-width: 350px;
+        padding-right: 10px;
     }  
     .infa-about{
         width: 100%;
